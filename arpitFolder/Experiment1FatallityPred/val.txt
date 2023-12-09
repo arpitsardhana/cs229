@@ -1,0 +1,7 @@
+{'lr__activation': 'relu', 'lr__hidden_layer_sizes': 100, 'lr__learning_rate': 'adaptive', 'lr__max_iter': 10000, 'lr__solver': 'lbfgs', 'lr__tol': 0.0001}
+Score with Cross Validation 0.8498417005879694
+
+ AdaBoost
+{'lr__algorithm': 'SAMME.R', 'lr__estimator': RandomForestClassifier(max_depth=5, max_features=6, n_estimators=11,
+                       random_state=42), 'lr__n_estimators': 40}
+Score with Cross Validation 0.8949947233529323

@@ -1,0 +1,29 @@
+October 20, 2023
+=====
+ Nearest Neighbors   KNeighborsClassifier(n_neighbors=3)
+Score of classifier :  0.696969696969697
+=====
+ Linear SVM   SVC(C=0.025, kernel='linear', random_state=42)
+Score of classifier :  0.696969696969697
+=====
+ RBF SVM   SVC(C=1, gamma=2, random_state=42)
+Score of classifier :  0.5757575757575758
+=====
+ Gaussian Process   GaussianProcessClassifier(kernel=1**2 * RBF(length_scale=1), random_state=42)
+Score of classifier :  0.5757575757575758
+=====
+ Decision Tree   DecisionTreeClassifier(max_depth=5, random_state=42)
+Score of classifier :  0.696969696969697
+=====
+ Random Forest   RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10,
+                       random_state=42)
+Score of classifier :  0.6868686868686869
+=====
+ Neural Net   MLPClassifier(alpha=1, max_iter=1000, random_state=42)
+Score of classifier :  0.7373737373737373
+=====
+ AdaBoost   AdaBoostClassifier(random_state=42)
+Score of classifier :  0.7373737373737373
+=====
+ Naive Bayes   GaussianNB()
+Score of classifier :  0.696969696969697
